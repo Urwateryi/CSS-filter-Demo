@@ -1,0 +1,17 @@
+<import src="../../common/lib/head.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'contrast'}}" />
+  
+  <view class='img-container'>
+    <view class='original-container'>
+      <text class='text'>处理前</text>
+      <image class='image-original' src='../../images/contrast.jpg' mode='aspectFill' />
+    </view>
+
+    <view class='filter-container'>
+      <text class='text'>处理后(50%)</text>
+      <image class='image-filter' src='../../images/contrast.jpg' mode='aspectFill' />
+    </view>
+  </view>
+</view>

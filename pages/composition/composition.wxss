@@ -1,0 +1,4 @@
+/*使用多个滤镜，每个滤镜使用空格分隔。注意: 顺序是非常重要的 (例如使用 grayscale() 后再使用 sepia()将产生一个完整的灰度图片)。 */
+.image-filter {
+ filter: saturate(0%) drop-shadow(15rpx 15rpx 10rpx #999999);
+}

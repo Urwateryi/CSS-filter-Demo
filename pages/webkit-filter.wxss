@@ -1,0 +1,18 @@
+.item-container {
+  height: 100rpx;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1rpx solid #ddd;
+  display: flex
+}
+
+.hover-class{
+  background-color: #eee;
+}
+
+.item {
+  color: #333;
+  font-size: 30rpx;
+  padding: 24rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/webkit-filter",
+    "pages/blur/blur",
+    "pages/brightness/brightness",
+    "pages/contrast/contrast",
+    "pages/drop-shadow/drop-shadow",
+    "pages/grayscale/grayscale",
+    "pages/hue-rotate/hue-rotate",
+    "pages/invert/invert",
+    "pages/opacity/opacity",
+    "pages/saturate/saturate",
+    "pages/sepia/sepia",
+    "pages/url/url",
+    "pages/composition/composition"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fec35a",
+    "backgroundColor": "#f2f2f2"
+  },
+  "debug": true
+}

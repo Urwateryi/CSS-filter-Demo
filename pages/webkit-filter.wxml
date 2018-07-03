@@ -1,0 +1,6 @@
+
+  <block wx:for='{{webkit_filter_list}}' wx:for-item="item" wx:for-index="index" wx:key='index'>
+    <view class='item-container' catchtap='onItemClick' hover-class='hover-class' hover-stay-time='50' data-url='{{item.url}}'>
+      <text class='item'>{{index+1+". "+item.content}}</text>
+    </view>
+  </block>
