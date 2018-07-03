@@ -1,16 +1,10 @@
-<svg style="position: absolute; top: -99999px" xmlns="http://www.w3.org/2000/svg">
-  <filter id="greenish">
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="2" intercept="-0.5"/>
-      <feFuncG type="linear" slope="2" intercept="-0.1"/>
-      <feFuncB type="linear" slope="2" intercept="-0.25"/>
-    </feComponentTransfer>
-  </filter>
-  <filter id="bluish">
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="2" intercept="-0.5"/>
-      <feFuncG type="linear" slope="2" intercept="-0.1"/>
-      <feFuncB type="linear" slope="2" intercept="0"/>
-    </feComponentTransfer>
-  </filter>
+<svg xmlns="http://www.w3.org/2000/svg"> 
+	<defs> 
+		<filter id="filter-primitives"> 
+			<feGaussianBlur stdDeviation="3" /> 
+			<feColorMatrix type="hueRotate" values="270"/> 
+			<feColorMatrix type="saturate" values="0.75"/> 
+			<feBlend mode="multiply"/> 
+		</filter> 
+	</defs> 
 </svg>

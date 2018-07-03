@@ -1,7 +1,7 @@
 <import src="../../common/lib/head.wxml" />
 
 <view class="container">
-  <template is="head" data="{{title: 'url'}}" />
+  <template is="head" data="{{title: 'SVG滤镜'}}" />
 
   <view class='img-container'>
     <view class='original-container'>
@@ -11,7 +11,7 @@
 
     <view class='filter-container'>
       <text class='text'>处理后</text>
-      <image class='image-filter' src='../../images/url.jpg' mode='aspectFill' />
+      <image class='image-filter' style="filter:url('../../images/filters.svg#filter-primitives')" src='../../images/url.jpg' mode='aspectFill' />
     </view>
   </view>
 </view>

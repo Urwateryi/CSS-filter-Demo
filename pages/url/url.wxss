@@ -1,3 +1,0 @@
-.image-filter {
-  filter: url('#greenish');
-}
